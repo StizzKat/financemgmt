@@ -8,3 +8,16 @@ The web application was developed using Typescript and Yarn, with a simple and e
 
 ![Screenshot of the project](https://i.ibb.co/g6FhZp5/image.png)
 
+### Installation
+
+```git clone https://github.com/miojoepao/financemgmt.git```
+
+```cd financemgmt```
+
+```yarn add package.json```
+
+```yarn dev```
+
+concatenated for quickness sake
+
+```git clone https://github.com/miojoepao/financemgmt.git && cd financemgmt && yarn add package.json && yarn dev```
