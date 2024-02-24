@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title><%= title %></title>
+        <script src="js/jquery.js"></script>
+        <script src="js/index.js"></script>
+        <script src="js/indexhtml.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+    </head>
+    <body>
+        <div class="nav-container">
+            <div class="nav">
+                <span class="nav-title"><%= title %></span>
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="main">
+                <div class="records-container">
+                    <div class="records-title">
+                        <span>Records</span>
+                    </div>
+                    <div class="records">
+                        
+                    </div>
+                </div>
+
+                <div class="records-search-container">
+                    <div class="records-search-title">
+                        <span>Record search</span>
+                    </div>
+                    <div class="search-form">
+                        <span>Search By</span>
+                        <input class="sb-name" type="button" value="Name">
+                        <input class="sb-type" type="button" value="Type">
+                        <input class="sb-amount" type="button" value="Amount">
+                        <div class="sb-inputs"></div>
+                        <hr>
+                    </div>
+                    <div class="search-result">
+                        
+                    </div>
+                </div>
+
+                <div class="form-container">
+                    <div class="form-title">
+                        <span>Payments and Invoices</span>
+                    </div>
+                    <div class="form">
+                        <input class="name" type="text" placeholder="Name">'s
+                        <select class="type">
+                            <option>Select type</option>
+                            <option value="payment">Payment</option>
+                            <option value="invoice">Invoice</option>
+                          </select>
+                          for
+                        <input class="description" type="text" placeholder="Description">
+                        is
+                        <input class="amount" type="text" placeholder="Amount">
+                        <input class="sub-btn" type="submit" value="Submit">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,122 @@
+
+.nav-container{
+    background-color: rgb(0, 101, 184);
+    padding:10px 12px;
+    color:white;
+    font-size: medium;
+    font-weight:bold;
+    border-bottom:1px black solid;
+}
+.main-container{
+    width:100%;
+}
+.main{
+    position: relative;
+    width:65%;
+    margin:auto;
+}
+.main::after{
+    content:'\a\a';
+    white-space: pre;
+}
+.records-title,.form-title,.records-search-title{
+    
+    background-color: rgb(0, 101, 184);
+    padding:5px 10px;
+    color:white;
+    font-size: medium;
+    font-weight:bold;
+}
+
+.records-container::before,.form-container::before,.records-search-container::before{
+    content: "\a\a\a";
+    white-space: pre;
+
+}
+
+.recs::before{
+    position: relative;
+    content: "\a";
+    white-space: pre;
+    
+}
+.records, .search-result{
+    background-color:rgb(228, 228, 228);
+    border:1px rgb(190, 190, 190) solid;
+    border-top:none;
+    padding:10px 20px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    height:23vh;
+    z-index: -1;
+    overflow-y: scroll;
+}
+.search-result{
+    display:none;
+}
+hr { 
+    border:1px rgb(190, 190, 190) solid;
+    border-bottom:none;
+    margin:10px;
+    display:none;
+}
+.form, .search-form{
+    background-color:rgb(228, 228, 228);
+    border:1px rgb(190, 190, 190) solid;
+    border-top:none;
+    padding:10px 20px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+input,select{
+    outline:none;
+    border-radius:0px;
+    border:1px solid grey;
+}
+.sb-inputs{
+    position: relative;
+    display: inline-block;
+}
+.sb-inputs input, select{
+    margin-left:4px;
+}
+.separator{
+    position: relative;
+    background-color: grey;
+    min-width: 1px;
+    max-width: 1px;
+    max-height:10px;
+    min-height:10px;
+    display:inline-flex;
+}
+.separator::before{
+    
+    content:' ';
+    white-space:'pre';
+}
+.separator::after{
+    content:' ';
+    white-space:'pre';
+}
+.err-container{
+    text-align: center;
+    width:100%;
+}
+.err-text{
+    font-size: 200px;
+    font-weight: bolder;
+    color:rgb(190, 190, 190);
+}
+.err-main::before{
+    content:'\a\a\a';
+    white-space:pre;
+}
+.err-desc::before{
+    content:'\a';
+    white-space:pre; 
+}
+@media screen and (max-width:617px){
+    .main{
+        width:90%;
+    }
+}
