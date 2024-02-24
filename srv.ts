@@ -24,7 +24,7 @@ server.use(router);
 
 server.use(bodyParser.json());
 server.set('view engine','ejs');
-server.set('views','./dev/views');
+server.set('views','./views');
 //Essential public assets definitions
 var routes = [
     {"url":"/db/info.json","file":"public/db/info.json"},
