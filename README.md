@@ -5,3 +5,6 @@ This project was made was made with inspiration on the video tutorial playlist p
 > https://www.youtube.com/watch?v=2pZmKW9-I_k&list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI
 
 The web application was developed using Typescript and Yarn, with a simple and easy to understand design.
+
+![Screenshot of the project](https://i.ibb.co/g6FhZp5/image.png)
+
