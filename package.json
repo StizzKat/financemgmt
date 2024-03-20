@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Finance management page template",
   "main": "srv.ts",
-  "repository": "https://github.com/miojoepao/financemgmt/",
-  "author": "MiojoEPao",
+  "repository": "https://github.com/stizzkat/financemgmt/",
+  "author": "StizzKat",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
